@@ -2,6 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  font-style: normal;
 }
 
 body {
@@ -36,3 +37,8 @@ img {
 button {
   font: inherit;
 }
+
+li {
+
+}
+
