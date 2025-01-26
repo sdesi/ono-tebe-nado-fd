@@ -4,12 +4,12 @@
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
     font-family: Raleway, sans-serif;
-    padding: 95px 50px;
+    padding: 94px 50px 101px 50px;
 }
 
 .header__logo {
-    height: 105px;
-    width: 148px;
+    height: 100px;
+    width: 136px;
 }
 
 .header__menu {
@@ -17,9 +17,8 @@
 
 .header__links-list {
     font-size: 18px;
-    line-height: 21.13px;
     display: flex;
-    gap: 30px;
+    gap: 33.5px;
 }
 
 .header__links-list-item {
@@ -32,10 +31,12 @@
 }
 
 .address {
-    max-width: 240px;
+    max-width: 239px;
     font-weight: 400;
     font-size: 18px;
-    line-height: 24.3px;
+    line-height: 23.9px;
+    align-self: flex-end;
+    text-underline-offset: 4.5px;
 }
 
 .header__address {
@@ -47,7 +48,7 @@
 /* MAIN */
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: overlay;
     z-index: 1;
 }
@@ -56,9 +57,9 @@
     position: relative;
     height: 757px;
     background-image: url(../images/cover.jpg); 
-    background-size: 118%;
-    background-position: 65% 40%;
-    padding: 165px 50px 50px 50px;
+    background-size: 124.6%;
+    background-position: 50.8% 40%;
+    padding: 155px 50px 50px 50px;
     z-index: 0;
     color: white;
 
@@ -66,7 +67,7 @@
 
 .cover__title {
     font-size: 100px;
-    line-height: 1.15em;
+    line-height: 1.35em;
 }
 
 .letter-spacing-extended {
@@ -84,6 +85,7 @@
 
 .aligned-text_center {
     text-align: center;
+    padding-left: 30px;
     display: block;
 }
 
@@ -93,14 +95,14 @@
 }
 
 .description {
-    margin-top: 106px;
+    margin-top: 97px;
     font-weight: 400;
     font-size: 22px;
     line-height: 28px;
     text-transform: uppercase;
     display: flex;
     justify-content: space-between;
-    word-spacing: 20px;
+    word-spacing: 18.6px;
     align-items: center;
 }
 
@@ -131,7 +133,7 @@
 
 .lots__card-list {
     margin-top: 27px;
-    margin-bottom: 27px;
+    margin-bottom: 32px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -151,7 +153,6 @@
 }
 
 .card-link {
-
 }
 
 .card {
@@ -178,11 +179,13 @@
 
 .card__title {
     height: 100%;
-    font-weight: 700;
+    font-weight: 550;
     font-size: 22px;
     line-height: 26.4px;
     text-decoration: underline;
     text-transform: uppercase;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
 }
 
 .card__text {
@@ -195,6 +198,8 @@
     margin-left: 40px;
     font-size: 20px;
     line-height: 23.48px;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
 }
 
 
@@ -206,7 +211,7 @@
     column-gap: 25px;
     row-gap: 8px;
     height: 595px;
-    margin-top: 120px;
+    margin-top: 118px;
     padding: 0px 24px;
     grid-template-columns: 334px auto;
 }
