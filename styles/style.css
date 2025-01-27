@@ -58,7 +58,6 @@
 
 .cover {
     position: relative;
-    /* height: 757px; */
     background-image: url(../images/cover.jpg); 
     background-size: 124.6%;
     background-position: 50.8% 40%;
@@ -260,7 +259,6 @@
     font-size: 18px;
     line-height: 1.33em;
     align-items: flex-start;
-    font-family: Raleway, sans-serif;
 }
 
 .footer__address {
